@@ -25,6 +25,7 @@ Thing Learned:
 - Creating an envirnoment
 - usage of flask library
 - @app.routs("/") means the root page that is laoded at first
+- Use 'jinja' feature in flask to access varibles or any type of data in html page using double curly brackets({{}})
 - Two type of methods that are "GET" and "POST", GET used in simple scenario where only URL is enough to access the webpage but POST used when we have to pass some data along URL
 - @app.route should have a function just below it, telling what that page meant to do
 - "Variable rule" can be used with URL when specifing the type of the variable like "@app.route('success/int:score)", check that URL variable name should matchs the one used in the function
